@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Estudiante\\Desktop\\pierda papel tijera\\Pierda papel tijera\\",
+  "WorkspaceRootPath": "C:\\Users\\Estudiante\\Desktop\\Formulario-juego\\Pierda papel tijera\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{942B636C-9A6C-42E0-9AAB-176176EC6776}|Pierda papel tijera\\Pierda papel tijera.csproj|c:\\users\\estudiante\\desktop\\pierda papel tijera\\pierda papel tijera\\pierda papel tijera\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{942B636C-9A6C-42E0-9AAB-176176EC6776}|Pierda papel tijera\\Pierda papel tijera.csproj|solutionrelative:pierda papel tijera\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{942B636C-9A6C-42E0-9AAB-176176EC6776}|Pierda papel tijera\\Pierda papel tijera.csproj|C:\\Users\\Estudiante\\Desktop\\Formulario-juego\\Pierda papel tijera\\Pierda papel tijera\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{942B636C-9A6C-42E0-9AAB-176176EC6776}|Pierda papel tijera\\Pierda papel tijera.csproj|solutionrelative:Pierda papel tijera\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{942B636C-9A6C-42E0-9AAB-176176EC6776}|Pierda papel tijera\\Pierda papel tijera.csproj|c:\\users\\estudiante\\desktop\\pierda papel tijera\\pierda papel tijera\\pierda papel tijera\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{942B636C-9A6C-42E0-9AAB-176176EC6776}|Pierda papel tijera\\Pierda papel tijera.csproj|solutionrelative:pierda papel tijera\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{942B636C-9A6C-42E0-9AAB-176176EC6776}|Pierda papel tijera\\Pierda papel tijera.csproj|c:\\users\\estudiante\\desktop\\formulario-juego\\pierda papel tijera\\pierda papel tijera\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{942B636C-9A6C-42E0-9AAB-176176EC6776}|Pierda papel tijera\\Pierda papel tijera.csproj|solutionrelative:pierda papel tijera\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,28 +18,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\pierda papel tijera\\Pierda papel tijera\\Pierda papel tijera\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\Formulario-juego\\Pierda papel tijera\\Pierda papel tijera\\Form1.cs",
               "RelativeDocumentMoniker": "Pierda papel tijera\\Form1.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\pierda papel tijera\\Pierda papel tijera\\Pierda papel tijera\\Form1.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\Formulario-juego\\Pierda papel tijera\\Pierda papel tijera\\Form1.cs",
               "RelativeToolTip": "Pierda papel tijera\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowGAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T17:55:24.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\pierda papel tijera\\Pierda papel tijera\\Pierda papel tijera\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\Formulario-juego\\Pierda papel tijera\\Pierda papel tijera\\Form1.cs",
               "RelativeDocumentMoniker": "Pierda papel tijera\\Form1.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\pierda papel tijera\\Pierda papel tijera\\Pierda papel tijera\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\Formulario-juego\\Pierda papel tijera\\Pierda papel tijera\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Pierda papel tijera\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T17:47:20.75Z",

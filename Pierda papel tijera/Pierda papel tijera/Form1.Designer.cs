@@ -29,19 +29,20 @@
         private void InitializeComponent()
         {
             this.gbJugador = new System.Windows.Forms.GroupBox();
-            this.gbMaquina = new System.Windows.Forms.GroupBox();
-            this.bdnPiedra = new System.Windows.Forms.RadioButton();
-            this.rdnPapel = new System.Windows.Forms.RadioButton();
             this.rdnTijera = new System.Windows.Forms.RadioButton();
-            this.rdnPiedramach = new System.Windows.Forms.RadioButton();
-            this.rdnPapelmach = new System.Windows.Forms.RadioButton();
+            this.rdnPapel = new System.Windows.Forms.RadioButton();
+            this.bdnPiedra = new System.Windows.Forms.RadioButton();
+            this.gbMaquina = new System.Windows.Forms.GroupBox();
             this.rdnTijeramach = new System.Windows.Forms.RadioButton();
+            this.rdnPapelmach = new System.Windows.Forms.RadioButton();
+            this.rdnPiedramach = new System.Windows.Forms.RadioButton();
             this.lblMaquina = new System.Windows.Forms.Label();
             this.lbljugador = new System.Windows.Forms.Label();
             this.txtMaquina = new System.Windows.Forms.TextBox();
             this.txtJugador = new System.Windows.Forms.TextBox();
             this.btnJugar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblGanador = new System.Windows.Forms.Label();
             this.gbJugador.SuspendLayout();
             this.gbMaquina.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -59,6 +60,39 @@
             this.gbJugador.TabStop = false;
             this.gbJugador.Text = "Jugador:";
             // 
+            // rdnTijera
+            // 
+            this.rdnTijera.AutoSize = true;
+            this.rdnTijera.Location = new System.Drawing.Point(23, 157);
+            this.rdnTijera.Name = "rdnTijera";
+            this.rdnTijera.Size = new System.Drawing.Size(51, 17);
+            this.rdnTijera.TabIndex = 2;
+            this.rdnTijera.TabStop = true;
+            this.rdnTijera.Text = "Tijera";
+            this.rdnTijera.UseVisualStyleBackColor = true;
+            // 
+            // rdnPapel
+            // 
+            this.rdnPapel.AutoSize = true;
+            this.rdnPapel.Location = new System.Drawing.Point(23, 97);
+            this.rdnPapel.Name = "rdnPapel";
+            this.rdnPapel.Size = new System.Drawing.Size(52, 17);
+            this.rdnPapel.TabIndex = 1;
+            this.rdnPapel.TabStop = true;
+            this.rdnPapel.Text = "Papel";
+            this.rdnPapel.UseVisualStyleBackColor = true;
+            // 
+            // bdnPiedra
+            // 
+            this.bdnPiedra.AutoSize = true;
+            this.bdnPiedra.Location = new System.Drawing.Point(23, 50);
+            this.bdnPiedra.Name = "bdnPiedra";
+            this.bdnPiedra.Size = new System.Drawing.Size(55, 17);
+            this.bdnPiedra.TabIndex = 0;
+            this.bdnPiedra.TabStop = true;
+            this.bdnPiedra.Text = "Piedra";
+            this.bdnPiedra.UseVisualStyleBackColor = true;
+            // 
             // gbMaquina
             // 
             this.gbMaquina.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
@@ -73,49 +107,16 @@
             this.gbMaquina.TabStop = false;
             this.gbMaquina.Text = "Maquina";
             // 
-            // bdnPiedra
+            // rdnTijeramach
             // 
-            this.bdnPiedra.AutoSize = true;
-            this.bdnPiedra.Location = new System.Drawing.Point(23, 50);
-            this.bdnPiedra.Name = "bdnPiedra";
-            this.bdnPiedra.Size = new System.Drawing.Size(55, 17);
-            this.bdnPiedra.TabIndex = 0;
-            this.bdnPiedra.TabStop = true;
-            this.bdnPiedra.Text = "Piedra";
-            this.bdnPiedra.UseVisualStyleBackColor = true;
-            // 
-            // rdnPapel
-            // 
-            this.rdnPapel.AutoSize = true;
-            this.rdnPapel.Location = new System.Drawing.Point(23, 97);
-            this.rdnPapel.Name = "rdnPapel";
-            this.rdnPapel.Size = new System.Drawing.Size(52, 17);
-            this.rdnPapel.TabIndex = 1;
-            this.rdnPapel.TabStop = true;
-            this.rdnPapel.Text = "Papel";
-            this.rdnPapel.UseVisualStyleBackColor = true;
-            // 
-            // rdnTijera
-            // 
-            this.rdnTijera.AutoSize = true;
-            this.rdnTijera.Location = new System.Drawing.Point(23, 157);
-            this.rdnTijera.Name = "rdnTijera";
-            this.rdnTijera.Size = new System.Drawing.Size(51, 17);
-            this.rdnTijera.TabIndex = 2;
-            this.rdnTijera.TabStop = true;
-            this.rdnTijera.Text = "Tijera";
-            this.rdnTijera.UseVisualStyleBackColor = true;
-            // 
-            // rdnPiedramach
-            // 
-            this.rdnPiedramach.AutoSize = true;
-            this.rdnPiedramach.Location = new System.Drawing.Point(33, 50);
-            this.rdnPiedramach.Name = "rdnPiedramach";
-            this.rdnPiedramach.Size = new System.Drawing.Size(55, 17);
-            this.rdnPiedramach.TabIndex = 0;
-            this.rdnPiedramach.TabStop = true;
-            this.rdnPiedramach.Text = "Piedra";
-            this.rdnPiedramach.UseVisualStyleBackColor = true;
+            this.rdnTijeramach.AutoSize = true;
+            this.rdnTijeramach.Location = new System.Drawing.Point(33, 157);
+            this.rdnTijeramach.Name = "rdnTijeramach";
+            this.rdnTijeramach.Size = new System.Drawing.Size(51, 17);
+            this.rdnTijeramach.TabIndex = 2;
+            this.rdnTijeramach.TabStop = true;
+            this.rdnTijeramach.Text = "Tijera";
+            this.rdnTijeramach.UseVisualStyleBackColor = true;
             // 
             // rdnPapelmach
             // 
@@ -128,16 +129,16 @@
             this.rdnPapelmach.Text = "Papel";
             this.rdnPapelmach.UseVisualStyleBackColor = true;
             // 
-            // rdnTijeramach
+            // rdnPiedramach
             // 
-            this.rdnTijeramach.AutoSize = true;
-            this.rdnTijeramach.Location = new System.Drawing.Point(33, 157);
-            this.rdnTijeramach.Name = "rdnTijeramach";
-            this.rdnTijeramach.Size = new System.Drawing.Size(51, 17);
-            this.rdnTijeramach.TabIndex = 2;
-            this.rdnTijeramach.TabStop = true;
-            this.rdnTijeramach.Text = "Tijera";
-            this.rdnTijeramach.UseVisualStyleBackColor = true;
+            this.rdnPiedramach.AutoSize = true;
+            this.rdnPiedramach.Location = new System.Drawing.Point(33, 50);
+            this.rdnPiedramach.Name = "rdnPiedramach";
+            this.rdnPiedramach.Size = new System.Drawing.Size(55, 17);
+            this.rdnPiedramach.TabIndex = 0;
+            this.rdnPiedramach.TabStop = true;
+            this.rdnPiedramach.Text = "Piedra";
+            this.rdnPiedramach.UseVisualStyleBackColor = true;
             // 
             // lblMaquina
             // 
@@ -193,12 +194,21 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
+            // lblGanador
+            // 
+            this.lblGanador.AutoSize = true;
+            this.lblGanador.Location = new System.Drawing.Point(403, 230);
+            this.lblGanador.Name = "lblGanador";
+            this.lblGanador.Size = new System.Drawing.Size(0, 13);
+            this.lblGanador.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblGanador);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnJugar);
             this.Controls.Add(this.txtJugador);
@@ -236,6 +246,7 @@
         private System.Windows.Forms.TextBox txtJugador;
         private System.Windows.Forms.Button btnJugar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblGanador;
     }
 }
 
